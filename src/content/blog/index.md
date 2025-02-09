@@ -1,13 +1,13 @@
 ---
 layout: layouts/base.njk
 title: Projects
-permalink: /projects/
 ---
 
-# 🏗️ My Completed Projects
+## My Construction Projects
 
-Here are some of my past construction and renovation projects:
+Welcome to my portfolio. Below are some of my completed projects.
 
-{% for project in collections.projects %}
-- [{{ project.data.title }}]({{ project.url }}) (Completed: {{ project.date | date: "%B %Y" }})
-{% endfor %}
+- 🏡 **Nairobi Home Renovation**
+  - **Scope:** Full renovation of a 3-bedroom home.
+  - **Completed:** March 2023.
+  - **Upgrades:** Structural reinforcements, modern finishes.
