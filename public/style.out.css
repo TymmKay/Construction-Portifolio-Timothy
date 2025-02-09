@@ -1,8 +1,21 @@
-/* Add construction-themed colors */
+/* Construction-Themed Colors */
 .bg-primary {
   background-color: #2a9d8f; /* Teal */
 }
 
 .text-accent {
   color: #e76f51; /* Coral */
+}
+
+.btn-primary {
+  background-color: #264653; /* Dark Blue */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #1d3a4d;
 }
